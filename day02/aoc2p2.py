@@ -8,7 +8,6 @@ def main():
     aim = 0
 
     for line in load_data():
-        line = line.strip()
         val = int(line[-1])
 
         match line[0]:
